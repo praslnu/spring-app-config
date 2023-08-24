@@ -10,8 +10,8 @@ eureka:
 spring:
   datasource:
     url: jdbc:postgresql://localhost:5432/restaurant
-    username: baeldung
-    password: baeldung
+    username: postgres
+    password: postgres
     driverClassName: org.postgresql.Driver
   jpa:
     database-platform: org.hibernate.dialect.PostgreSQLDialect
